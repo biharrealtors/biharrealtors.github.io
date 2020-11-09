@@ -114,11 +114,32 @@
           <div class="row">
             <div class="col-md-7">
 
-              <form action="https://formspree.io/f/xknpbdje" method="POST">
-                <input type="text" name="name">
-                <input type="email" name="_replyto">
-                <input type="hidden" name="_next" value="index.html">
-                <input type="submit" value="Send">
+              <form class="form-a contactForm" role="form" action="https://formspree.io/f/xknpbdje" method="POST">
+                <div class="row">
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <input class="form-control form-control-lg form-control-a" placeholder="Your Name" type="text" name="name">
+                    </div>
+                  </div>
+
+                  <div class="col-md-6 mb-3">
+                    <div class="form-group">
+                      <input class="form-control form-control-lg form-control-a" placeholder="Your Email" type="email" name="_replyto">
+                    </div>
+                  </div>
+
+                  <div class="col-md-12 mb-3">
+                    <div class="form-group">
+                      <textarea class="form-control" name="body" placeholder="Message"></textarea>
+                    </div>
+                  </div>
+
+                  <input type="hidden" name="_next" value="index.html">
+                
+                  <div class="col-md-12">
+                    <input class="btn btn-a" type="submit" value="Send">
+                  </div>
+                </div>
               </form>
 
               
@@ -148,7 +169,7 @@
                   </div>
                   <div class="col-md-12">
                     <input class="btn btn-a" type="submit" value="Send">
-                    <!--<button type="submit" class="btn btn-a">Send Message</button>-->
+                   <button type="submit" class="btn btn-a">Send Message</button>
                   </div>
                 </div>
               </form> /-->
