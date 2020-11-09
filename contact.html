@@ -113,9 +113,18 @@
         <div class="col-sm-12 section-t8">
           <div class="row">
             <div class="col-md-7">
-              <form class="form-a contactForm" action="https://formspree.io/contact.biharrealtors@gmail.com" method="post" role="form">
-                <!--/<div id="sendmessage">Thank You for contacting us, one of us will reach out to you to help with your queries.</div>
-                <div id="errormessage">Something went wrong. Try again later.</div>/-->
+
+              <form action="https://formspree.io/contact.biharrealtors@gmail.com">
+                <input type="email" name="_replyto">
+                <textarea   name="body"></textarea>
+                <input type="hidden" name="_next" value="index.html" />
+                <input type="submit" value="Send">
+              </form>
+
+              
+              <!--/<form class="form-a contactForm" action="https://formspree.io/contact.biharrealtors@gmail.com" method="post" role="form">
+                <div id="sendmessage">Thank You for contacting us, one of us will reach out to you to help with your queries.</div>
+                <div id="errormessage">Something went wrong. Try again later.</div>
                 <input type="hidden" name="_subject" value="Contact request from personal website" />
                 
                 <div class="row">
@@ -142,7 +151,7 @@
                     <!--<button type="submit" class="btn btn-a">Send Message</button>-->
                   </div>
                 </div>
-              </form>
+              </form> /-->
             </div>
             <div class="col-md-5 section-md-t3">
               <div class="icon-box section-b2">
